@@ -1,14 +1,14 @@
 # Scan
 
-[![GoDoc](https://godoc.org/github.com/blockloop/scan?status.svg)](https://godoc.org/github.com/blockloop/scan)
+[![GoDoc](https://godoc.org/github.com/LUSHDigital/scan?status.svg)](https://godoc.org/github.com/LUSHDigital/scan)
 [![Travis](https://img.shields.io/travis/blockloop/scan.svg)](https://travis-ci.org/blockloop/scan)
 [![Coveralls github](https://img.shields.io/coveralls/github/blockloop/scan.svg)](https://coveralls.io/github/blockloop/scan)
-[![Report Card](https://goreportcard.com/badge/github.com/blockloop/scan)](https://goreportcard.com/report/github.com/blockloop/scan)
+[![Report Card](https://goreportcard.com/badge/github.com/LUSHDigital/scan)](https://goreportcard.com/report/github.com/LUSHDigital/scan)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=blockloop/scan)](https://dependabot.com)
 
 
 Scan provides the ability to use database/sql/rows to scan datasets directly to structs or slices. 
-For the most comprehensive and up-to-date docs see the [godoc](https://godoc.org/github.com/blockloop/scan)
+For the most comprehensive and up-to-date docs see the [godoc](https://godoc.org/github.com/LUSHDigital/scan)
 
 ## Examples
 
@@ -134,7 +134,7 @@ While many other projects support similar features (i.e. [sqlx](https://github.c
 λ go test -bench=. -benchtime=10s ./...
 goos: linux
 goarch: amd64
-pkg: github.com/blockloop/scan
+pkg: github.com/LUSHDigital/scan
 BenchmarkColumnsLargeStruct-8           50000000               272 ns/op
 BenchmarkValuesLargeStruct-8             2000000              8611 ns/op
 BenchmarkScanRowOneField-8               2000000              8528 ns/op
@@ -142,7 +142,7 @@ BenchmarkScanRowFiveFields-8             1000000             12234 ns/op
 BenchmarkScanTenRowsOneField-8           1000000             16802 ns/op
 BenchmarkScanTenRowsTenFields-8           100000            104587 ns/op
 PASS
-ok      github.com/blockloop/scan       116.055s
+ok      github.com/LUSHDigital/scan       116.055s
 ```
 
 

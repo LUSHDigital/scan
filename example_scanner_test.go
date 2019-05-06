@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/blockloop/scan"
+	"github.com/LUSHDigital/scan"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"
 )

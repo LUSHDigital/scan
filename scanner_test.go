@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/blockloop/scan"
+	"github.com/LUSHDigital/scan"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
